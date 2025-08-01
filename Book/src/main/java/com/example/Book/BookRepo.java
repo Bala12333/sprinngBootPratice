@@ -5,5 +5,6 @@ import com.example.Book.BookDetails;
 
 public interface BookRepo {
     ArrayList<BookDetails> getBooks();
+    BookDetails getBookId(int id);
 }
 

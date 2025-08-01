@@ -24,5 +24,10 @@ public class BookService implements BookRepo{
         return  books;
 
     }
+    @Override
+    public BookDetails getBookId(int id){
+        BookDetails book=bookMap.get(id);
+        return book;
+    }
 
 }
