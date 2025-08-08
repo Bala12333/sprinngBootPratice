@@ -8,5 +8,6 @@ public interface BookRepo {
     BookDetails getBookId(int id);
 
     BookDetails add_book(BookDetails book);
+    BookDetails update_Book(int id,BookDetails book);
 }
 

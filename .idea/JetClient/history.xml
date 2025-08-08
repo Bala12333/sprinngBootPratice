@@ -4,275 +4,6 @@
     <option name="requestHistoryStates">
       <list>
         <requestHistoryState>
-          <option name="dateTime" value="1754634032118" />
-          <option name="id" value="68e8a076-8405-40e2-a34b-b728d6e24da2" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  name: &quot;sai&quot;,&#10;  imageUrl:&quot;sai.png&quot;&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8080/books" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJ0aW1lc3RhbXAiOiIyMDI1LTA4LTA4VDA2OjIwOjMyLjExNCswMDowMCIsInN0YXR1cyI6NTAwLCJlcnJvciI6IkludGVybmFsIFNlcnZlciBFcnJvciIsInBhdGgiOiIvYm9va3MifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;timestamp&quot;: &quot;2025-08-08T06:20:32.114+00:00&quot;,&#10;  &quot;status&quot;: 500,&#10;  &quot;error&quot;: &quot;Internal Server Error&quot;,&#10;  &quot;path&quot;: &quot;/books&quot;&#10;}" />
-              <option name="code" value="500" />
-              <option name="connectionEstablishingTime" value="2" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Fri, 08 Aug 2025 06:20:32 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="close" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="68e8a076-8405-40e2-a34b-b728d6e24da2" />
-              <option name="message" value="Internal Server Error" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;timestamp&quot;:&quot;2025-08-08T06:20:32.114+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;path&quot;:&quot;/books&quot;}" />
-              <option name="size" value="106" />
-              <option name="time" value="12" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1754634032461" />
-          <option name="id" value="b410c41b-e951-4009-b7b3-ef9bc09243e0" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  name: &quot;sai&quot;,&#10;  imageUrl:&quot;sai.png&quot;&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8080/books" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJ0aW1lc3RhbXAiOiIyMDI1LTA4LTA4VDA2OjIwOjMyLjQ2MCswMDowMCIsInN0YXR1cyI6NTAwLCJlcnJvciI6IkludGVybmFsIFNlcnZlciBFcnJvciIsInBhdGgiOiIvYm9va3MifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;timestamp&quot;: &quot;2025-08-08T06:20:32.460+00:00&quot;,&#10;  &quot;status&quot;: 500,&#10;  &quot;error&quot;: &quot;Internal Server Error&quot;,&#10;  &quot;path&quot;: &quot;/books&quot;&#10;}" />
-              <option name="code" value="500" />
-              <option name="connectionEstablishingTime" value="2" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Fri, 08 Aug 2025 06:20:32 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="close" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="b410c41b-e951-4009-b7b3-ef9bc09243e0" />
-              <option name="message" value="Internal Server Error" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;timestamp&quot;:&quot;2025-08-08T06:20:32.460+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;path&quot;:&quot;/books&quot;}" />
-              <option name="size" value="106" />
-              <option name="time" value="10" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1754634032899" />
-          <option name="id" value="d2f14f06-d3b1-47bb-b9cd-6caf4486c5fa" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  name: &quot;sai&quot;,&#10;  imageUrl:&quot;sai.png&quot;&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8080/books" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJ0aW1lc3RhbXAiOiIyMDI1LTA4LTA4VDA2OjIwOjMyLjg5NCswMDowMCIsInN0YXR1cyI6NTAwLCJlcnJvciI6IkludGVybmFsIFNlcnZlciBFcnJvciIsInBhdGgiOiIvYm9va3MifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;timestamp&quot;: &quot;2025-08-08T06:20:32.894+00:00&quot;,&#10;  &quot;status&quot;: 500,&#10;  &quot;error&quot;: &quot;Internal Server Error&quot;,&#10;  &quot;path&quot;: &quot;/books&quot;&#10;}" />
-              <option name="code" value="500" />
-              <option name="connectionEstablishingTime" value="2" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Fri, 08 Aug 2025 06:20:32 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="close" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="d2f14f06-d3b1-47bb-b9cd-6caf4486c5fa" />
-              <option name="message" value="Internal Server Error" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;timestamp&quot;:&quot;2025-08-08T06:20:32.894+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;path&quot;:&quot;/books&quot;}" />
-              <option name="size" value="106" />
-              <option name="time" value="13" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1754634061079" />
-          <option name="id" value="342f2497-e21c-445e-ab58-e6ee60c5208c" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;&quot;: &quot;sai&quot;,&#10;  &quot;imageUrl&quot;&quot;:&quot;sai.png&quot;&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8080/books" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJ0aW1lc3RhbXAiOiIyMDI1LTA4LTA4VDA2OjIxOjAxLjA3OSswMDowMCIsInN0YXR1cyI6NDAwLCJlcnJvciI6IkJhZCBSZXF1ZXN0IiwicGF0aCI6Ii9ib29rcyJ9" />
-              <option name="bodyString" value="{&#10;  &quot;timestamp&quot;: &quot;2025-08-08T06:21:01.079+00:00&quot;,&#10;  &quot;status&quot;: 400,&#10;  &quot;error&quot;: &quot;Bad Request&quot;,&#10;  &quot;path&quot;: &quot;/books&quot;&#10;}" />
-              <option name="code" value="400" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Fri, 08 Aug 2025 06:21:01 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="close" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="342f2497-e21c-445e-ab58-e6ee60c5208c" />
-              <option name="message" value="Bad Request" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;timestamp&quot;:&quot;2025-08-08T06:21:01.079+00:00&quot;,&quot;status&quot;:400,&quot;error&quot;:&quot;Bad Request&quot;,&quot;path&quot;:&quot;/books&quot;}" />
-              <option name="size" value="96" />
-              <option name="time" value="12" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1754634075519" />
-          <option name="id" value="93dc3772-1443-4599-a077-ae0b07a8d966" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;sai&quot;,&#10;  &quot;imageUrl&quot;:&quot;sai.png&quot;&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8080/books" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJ0aW1lc3RhbXAiOiIyMDI1LTA4LTA4VDA2OjIxOjE1LjUwOSswMDowMCIsInN0YXR1cyI6NTAwLCJlcnJvciI6IkludGVybmFsIFNlcnZlciBFcnJvciIsInBhdGgiOiIvYm9va3MifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;timestamp&quot;: &quot;2025-08-08T06:21:15.509+00:00&quot;,&#10;  &quot;status&quot;: 500,&#10;  &quot;error&quot;: &quot;Internal Server Error&quot;,&#10;  &quot;path&quot;: &quot;/books&quot;&#10;}" />
-              <option name="code" value="500" />
-              <option name="connectionEstablishingTime" value="4" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Fri, 08 Aug 2025 06:21:15 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="close" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="93dc3772-1443-4599-a077-ae0b07a8d966" />
-              <option name="message" value="Internal Server Error" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;timestamp&quot;:&quot;2025-08-08T06:21:15.509+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;path&quot;:&quot;/books&quot;}" />
-              <option name="size" value="106" />
-              <option name="time" value="15" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
           <option name="dateTime" value="1754634522430" />
           <option name="id" value="657161e2-d44d-4d84-9cbf-a9e31fd103b4" />
           <option name="request">
@@ -554,6 +285,295 @@
               <option name="rawBodyString" value="[{&quot;id&quot;:101,&quot;name&quot;:&quot;Psychology of Money&quot;,&quot;imageUrl&quot;:&quot;Psychology_of_Money.png&quot;},{&quot;id&quot;:102,&quot;name&quot;:&quot;Rich Dad Poor Dad&quot;,&quot;imageUrl&quot;:&quot;Rich_Dad_Poor_Dad.jpg&quot;},{&quot;id&quot;:103,&quot;name&quot;:&quot;Your Money or Your Life&quot;,&quot;imageUrl&quot;:&quot;Your_Money_or_Your_Life.jpg&quot;},{&quot;id&quot;:104,&quot;name&quot;:&quot;sai&quot;,&quot;imageUrl&quot;:&quot;sai.png&quot;},{&quot;id&quot;:105,&quot;name&quot;:&quot;bala&quot;,&quot;imageUrl&quot;:&quot;bala.png&quot;}]" />
               <option name="size" value="328" />
               <option name="time" value="5" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1754636215359" />
+          <option name="id" value="1f588108-67d1-49a0-ad6c-cae0734d0bd4" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;bala&quot;,&#10;  &quot;imageUrl&quot;:&quot;bala.png&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8080/books" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJpZCI6MTA0LCJuYW1lIjoiYmFsYSIsImltYWdlVXJsIjoiYmFsYS5wbmcifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;id&quot;: 104,&#10;  &quot;name&quot;: &quot;bala&quot;,&#10;  &quot;imageUrl&quot;: &quot;bala.png&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="5" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 08 Aug 2025 06:56:55 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1f588108-67d1-49a0-ad6c-cae0734d0bd4" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;id&quot;:104,&quot;name&quot;:&quot;bala&quot;,&quot;imageUrl&quot;:&quot;bala.png&quot;}" />
+              <option name="size" value="46" />
+              <option name="time" value="331" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1754636218787" />
+          <option name="id" value="c4fccf81-2956-4cff-b5ea-e1c54bb317c3" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;bala&quot;,&#10;  &quot;imageUrl&quot;:&quot;bala.png&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8080/books" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3siaWQiOjEwMSwibmFtZSI6IlBzeWNob2xvZ3kgb2YgTW9uZXkiLCJpbWFnZVVybCI6IlBzeWNob2xvZ3lfb2ZfTW9uZXkucG5nIn0seyJpZCI6MTAyLCJuYW1lIjoiUmljaCBEYWQgUG9vciBEYWQiLCJpbWFnZVVybCI6IlJpY2hfRGFkX1Bvb3JfRGFkLmpwZyJ9LHsiaWQiOjEwMywibmFtZSI6IllvdXIgTW9uZXkgb3IgWW91ciBMaWZlIiwiaW1hZ2VVcmwiOiJZb3VyX01vbmV5X29yX1lvdXJfTGlmZS5qcGcifSx7ImlkIjoxMDQsIm5hbWUiOiJiYWxhIiwiaW1hZ2VVcmwiOiJiYWxhLnBuZyJ9XQ==" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot;: 101,&#10;    &quot;name&quot;: &quot;Psychology of Money&quot;,&#10;    &quot;imageUrl&quot;: &quot;Psychology_of_Money.png&quot;&#10;  },&#10;  {&#10;    &quot;id&quot;: 102,&#10;    &quot;name&quot;: &quot;Rich Dad Poor Dad&quot;,&#10;    &quot;imageUrl&quot;: &quot;Rich_Dad_Poor_Dad.jpg&quot;&#10;  },&#10;  {&#10;    &quot;id&quot;: 103,&#10;    &quot;name&quot;: &quot;Your Money or Your Life&quot;,&#10;    &quot;imageUrl&quot;: &quot;Your_Money_or_Your_Life.jpg&quot;&#10;  },&#10;  {&#10;    &quot;id&quot;: 104,&#10;    &quot;name&quot;: &quot;bala&quot;,&#10;    &quot;imageUrl&quot;: &quot;bala.png&quot;&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 08 Aug 2025 06:56:58 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c4fccf81-2956-4cff-b5ea-e1c54bb317c3" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;id&quot;:101,&quot;name&quot;:&quot;Psychology of Money&quot;,&quot;imageUrl&quot;:&quot;Psychology_of_Money.png&quot;},{&quot;id&quot;:102,&quot;name&quot;:&quot;Rich Dad Poor Dad&quot;,&quot;imageUrl&quot;:&quot;Rich_Dad_Poor_Dad.jpg&quot;},{&quot;id&quot;:103,&quot;name&quot;:&quot;Your Money or Your Life&quot;,&quot;imageUrl&quot;:&quot;Your_Money_or_Your_Life.jpg&quot;},{&quot;id&quot;:104,&quot;name&quot;:&quot;bala&quot;,&quot;imageUrl&quot;:&quot;bala.png&quot;}]" />
+              <option name="size" value="283" />
+              <option name="time" value="14" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1754636259716" />
+          <option name="id" value="27526120-e668-451d-aebd-98d23ea31daf" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
+              <option name="method" value="PUT" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8080/books/104" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJpZCI6MTA0LCJuYW1lIjoiY2hhbmRhciIsImltYWdlVXJsIjoiYmFsYS5wbmcifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;id&quot;: 104,&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &quot;imageUrl&quot;: &quot;bala.png&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 08 Aug 2025 06:57:39 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="27526120-e668-451d-aebd-98d23ea31daf" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;id&quot;:104,&quot;name&quot;:&quot;chandar&quot;,&quot;imageUrl&quot;:&quot;bala.png&quot;}" />
+              <option name="size" value="49" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1754636267163" />
+          <option name="id" value="8879480a-10d6-46b1-8361-a22789305d6b" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8080/books/104" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJpZCI6MTA0LCJuYW1lIjoiY2hhbmRhciIsImltYWdlVXJsIjoiYmFsYS5wbmcifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;id&quot;: 104,&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &quot;imageUrl&quot;: &quot;bala.png&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="4" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 08 Aug 2025 06:57:47 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="8879480a-10d6-46b1-8361-a22789305d6b" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;id&quot;:104,&quot;name&quot;:&quot;chandar&quot;,&quot;imageUrl&quot;:&quot;bala.png&quot;}" />
+              <option name="size" value="49" />
+              <option name="time" value="14" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1754636277369" />
+          <option name="id" value="0f64ba7b-1a3b-4dd5-a0ba-2448621ac0ed" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8080/books" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3siaWQiOjEwMSwibmFtZSI6IlBzeWNob2xvZ3kgb2YgTW9uZXkiLCJpbWFnZVVybCI6IlBzeWNob2xvZ3lfb2ZfTW9uZXkucG5nIn0seyJpZCI6MTAyLCJuYW1lIjoiUmljaCBEYWQgUG9vciBEYWQiLCJpbWFnZVVybCI6IlJpY2hfRGFkX1Bvb3JfRGFkLmpwZyJ9LHsiaWQiOjEwMywibmFtZSI6IllvdXIgTW9uZXkgb3IgWW91ciBMaWZlIiwiaW1hZ2VVcmwiOiJZb3VyX01vbmV5X29yX1lvdXJfTGlmZS5qcGcifSx7ImlkIjoxMDQsIm5hbWUiOiJjaGFuZGFyIiwiaW1hZ2VVcmwiOiJiYWxhLnBuZyJ9XQ==" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot;: 101,&#10;    &quot;name&quot;: &quot;Psychology of Money&quot;,&#10;    &quot;imageUrl&quot;: &quot;Psychology_of_Money.png&quot;&#10;  },&#10;  {&#10;    &quot;id&quot;: 102,&#10;    &quot;name&quot;: &quot;Rich Dad Poor Dad&quot;,&#10;    &quot;imageUrl&quot;: &quot;Rich_Dad_Poor_Dad.jpg&quot;&#10;  },&#10;  {&#10;    &quot;id&quot;: 103,&#10;    &quot;name&quot;: &quot;Your Money or Your Life&quot;,&#10;    &quot;imageUrl&quot;: &quot;Your_Money_or_Your_Life.jpg&quot;&#10;  },&#10;  {&#10;    &quot;id&quot;: 104,&#10;    &quot;name&quot;: &quot;chandar&quot;,&#10;    &quot;imageUrl&quot;: &quot;bala.png&quot;&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="4" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 08 Aug 2025 06:57:57 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="0f64ba7b-1a3b-4dd5-a0ba-2448621ac0ed" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;id&quot;:101,&quot;name&quot;:&quot;Psychology of Money&quot;,&quot;imageUrl&quot;:&quot;Psychology_of_Money.png&quot;},{&quot;id&quot;:102,&quot;name&quot;:&quot;Rich Dad Poor Dad&quot;,&quot;imageUrl&quot;:&quot;Rich_Dad_Poor_Dad.jpg&quot;},{&quot;id&quot;:103,&quot;name&quot;:&quot;Your Money or Your Life&quot;,&quot;imageUrl&quot;:&quot;Your_Money_or_Your_Life.jpg&quot;},{&quot;id&quot;:104,&quot;name&quot;:&quot;chandar&quot;,&quot;imageUrl&quot;:&quot;bala.png&quot;}]" />
+              <option name="size" value="286" />
+              <option name="time" value="11" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />

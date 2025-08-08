@@ -43,5 +43,21 @@ public class BookService implements BookRepo{
         return book;
     }
 
+    @Override
+    public BookDetails update_Book(int id, BookDetails book) {
+        BookDetails exist_Book=bookMap.get(id);
+        if (exist_Book==null){
+            throw new ResponseStatusException((HttpStatus.NOT_FOUND));
+        }
+        if (book.getImageUrl()!=null){
+            exist_Book.setImageUrl(book.getImageUrl());
+        }
+        if (book.getName()!=null){
+            exist_Book.setName(book.getName());
+
+        }
+        return exist_Book;
+    }
+
 
 }

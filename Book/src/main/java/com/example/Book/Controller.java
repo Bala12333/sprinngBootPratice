@@ -1,11 +1,7 @@
 package com.example.Book;
 
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.*;
 import com.example.Book.BookService;
 import com.example.Book.BookDetails;
 
@@ -30,5 +26,9 @@ public class Controller {
 
 
 
+    }
+    @PutMapping("/books/{bookId}")
+    public BookDetails update_Book(@PathVariable("bookId") int id,@RequestBody BookDetails book){
+        return bookSer.update_Book(id,book);
     }
 }
