@@ -11,6 +11,9 @@ public class BookDetails {
 
 
     }
+
+
+
     public void setId(int id){
         this.id=id;
 
@@ -35,4 +38,5 @@ public class BookDetails {
     public String getImageUrl() {
         return imageUrl;
     }
+
 }

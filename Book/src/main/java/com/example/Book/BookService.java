@@ -3,10 +3,13 @@ package com.example.Book;
 import java.util.*;
 import com.example.Book.BookDetails;
 import com.example.Book.BookRepo;
+import org.springframework.web.server.ResponseStatusException;
+import  org.springframework.http.HttpStatus;
 
 
 
 public class BookService implements BookRepo{
+    int uniId=104;
     private HashMap<Integer,BookDetails> bookMap=new HashMap<>();
     public BookService(){
         BookDetails b1=new BookDetails(101,"Psychology of Money","Psychology_of_Money.png");
@@ -27,7 +30,18 @@ public class BookService implements BookRepo{
     @Override
     public BookDetails getBookId(int id){
         BookDetails book=bookMap.get(id);
+        if (book==null){
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND);
+        }
         return book;
     }
+    @Override
+    public  BookDetails add_book(BookDetails book){
+        book.setId(uniId);
+        bookMap.put(uniId,book);
+        uniId+=1;
+        return book;
+    }
+
 
 }
