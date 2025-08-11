@@ -1,14 +1,15 @@
-package com.example.Book;
+package com.example.Book.Service;
 
 import java.util.*;
-import com.example.Book.BookDetails;
-import com.example.Book.BookRepo;
+
+import com.example.Book.Repo.BookRepo;
+import com.example.Book.modal.BookDetails;
 import org.springframework.web.server.ResponseStatusException;
 import  org.springframework.http.HttpStatus;
 
 
 
-public class BookService implements BookRepo{
+public class BookService implements BookRepo {
     int uniId=104;
     private HashMap<Integer,BookDetails> bookMap=new HashMap<>();
     public BookService(){

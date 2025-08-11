@@ -1,4 +1,4 @@
-package com.example.Book;
+package com.example.Book.modal;
 
 public class BookDetails {
     private  int id;

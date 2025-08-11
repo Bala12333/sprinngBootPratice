@@ -1,7 +1,7 @@
-package com.example.Book;
+package com.example.Book.Repo;
 
 import java.util.ArrayList;
-import com.example.Book.BookDetails;
+import com.example.Book.modal.BookDetails;
 
 public interface BookRepo {
     ArrayList<BookDetails> getBooks();
