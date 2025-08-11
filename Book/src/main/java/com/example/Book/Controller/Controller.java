@@ -1,9 +1,9 @@
-package com.example.Book;
+package com.example.Book.Controller;
 
 
 import org.springframework.web.bind.annotation.*;
-import com.example.Book.BookService;
-import com.example.Book.BookDetails;
+import com.example.Book.Service.BookService;
+import com.example.Book.modal.BookDetails;
 
 import java.util.ArrayList;
 
