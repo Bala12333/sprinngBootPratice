@@ -1,15 +1,19 @@
 package com.example.Book.Controller;
 
 
+import com.example.Book.Service.H2service;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import com.example.Book.Service.BookService;
 import com.example.Book.modal.BookDetails;
 
 import java.util.ArrayList;
 
+
 @RestController
 public class Controller {
-    BookService bookSer=new BookService();
+    @Autowired
+    H2service bookSer;
     @GetMapping("/books")
     public ArrayList<BookDetails> getBooks(){
 

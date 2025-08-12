@@ -8,14 +8,14 @@
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &quot;imageUrl&quot;:&quot;anoob.png&quot;&#10;  &#10;}" />
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Balachandar&quot;,&#10;  &quot;imageUrl&quot;:&quot;bala.png&quot;&#10;  &#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
               <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
-              <option name="method" value="GET" />
+              <option name="method" value="DELETE" />
               <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8080/books" />
+              <option name="url" value="http://localhost:8080/books/7" />
             </requestState>
           </list>
         </option>
