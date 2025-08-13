@@ -1,0 +1,7 @@
+com\example\Book\BookApplication.class
+com\example\Book\Repo\BookRepo.class
+com\example\Book\modal\BookDetails.class
+com\example\Book\Service\H2service.class
+com\example\Book\Controller\Controller.class
+com\example\Book\Service\BookService.class
+com\example\Book\modal\BookRowMapper.class
