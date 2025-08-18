@@ -8,13 +8,25 @@
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &quot;imageUrl&quot;:&quot;anoob.png&quot;&#10;  &#10;}" />
+                  <option name="raw" value=" {&#10;  &#10;  &quot;name&quot;: &quot;balaaaaa&quot;,&#10;   &quot;imageUrl&quot;: &quot;sakls&quot;,&#10;   &quot;publisher&quot;: {&#10;     &quot;publisherId&quot;: 20,&#10;   },&#10;   &quot;authors&quot;: [&#10;     {&#10;       &quot;authorId&quot;: 2&#10;     }&#10;   ]&#10;   &#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
               <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
-              <option name="method" value="GET" />
+              <option name="method" value="DELETE" />
               <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8080/books/2000" />
+            </requestState>
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10; &#10;  &quot;authorName&quot;: &quot;Pwwosdjsbdjsdsadsaasdd&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="c7c94a20-513b-499c-a1f2-44b09a6b2d48" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft (1)" />
               <option name="url" value="http://localhost:8080/books" />
             </requestState>
           </list>

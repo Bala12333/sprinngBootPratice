@@ -4,27 +4,250 @@
     <option name="requestHistoryStates">
       <list>
         <requestHistoryState>
-          <option name="dateTime" value="1754636259716" />
-          <option name="id" value="27526120-e668-451d-aebd-98d23ea31daf" />
+          <option name="dateTime" value="1755498157190" />
+          <option name="id" value="cd5f109c-499b-475f-9fb1-58275457c025" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &#10;}" />
+                  <option name="raw" value="{&#10; &#10;  &quot;authorName&quot;: &quot;Pwwoidhdhdb&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
-              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
-              <option name="method" value="PUT" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8080/books/104" />
+              <option name="id" value="c7c94a20-513b-499c-a1f2-44b09a6b2d48" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft (1)" />
+              <option name="url" value="http://localhost:8080/authors" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJpZCI6MTA0LCJuYW1lIjoiY2hhbmRhciIsImltYWdlVXJsIjoiYmFsYS5wbmcifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;id&quot;: 104,&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &quot;imageUrl&quot;: &quot;bala.png&quot;&#10;}" />
+              <option name="bodyBytesBase64" value="eyJhdXRob3JJZCI6OCwiYXV0aG9yTmFtZSI6IlB3d29pZGhkaGRiIn0=" />
+              <option name="bodyString" value="{&#10;  &quot;authorId&quot;: 8,&#10;  &quot;authorName&quot;: &quot;Pwwoidhdhdb&quot;&#10;}" />
               <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="4" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 18 Aug 2025 06:22:37 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="cd5f109c-499b-475f-9fb1-58275457c025" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;authorId&quot;:8,&quot;authorName&quot;:&quot;Pwwoidhdhdb&quot;}" />
+              <option name="size" value="41" />
+              <option name="time" value="67" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1755498166755" />
+          <option name="id" value="24143a95-b659-497c-bcb1-07de98223b3b" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10; &#10;  &quot;authorName&quot;: &quot;Pwwoidhdhdb&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="c7c94a20-513b-499c-a1f2-44b09a6b2d48" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft (1)" />
+              <option name="url" value="http://localhost:8080/authors/8" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJhdXRob3JJZCI6OCwiYXV0aG9yTmFtZSI6IlB3d29pZGhkaGRiIn0=" />
+              <option name="bodyString" value="{&#10;  &quot;authorId&quot;: 8,&#10;  &quot;authorName&quot;: &quot;Pwwoidhdhdb&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 18 Aug 2025 06:22:46 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="24143a95-b659-497c-bcb1-07de98223b3b" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;authorId&quot;:8,&quot;authorName&quot;:&quot;Pwwoidhdhdb&quot;}" />
+              <option name="size" value="41" />
+              <option name="time" value="66" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1755498180045" />
+          <option name="id" value="d3e1f326-5307-4928-934f-419be029f94b" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10; &#10;  &quot;authorName&quot;: &quot;Pwwosdjsbdjsdsadsaasdd&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="c7c94a20-513b-499c-a1f2-44b09a6b2d48" />
+              <option name="method" value="PUT" />
+              <option name="name" value="Draft (1)" />
+              <option name="url" value="http://localhost:8080/authors/8" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJhdXRob3JJZCI6OCwiYXV0aG9yTmFtZSI6IlB3d29zZGpzYmRqc2RzYWRzYWFzZGQifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;authorId&quot;: 8,&#10;  &quot;authorName&quot;: &quot;Pwwosdjsbdjsdsadsaasdd&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 18 Aug 2025 06:23:00 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="d3e1f326-5307-4928-934f-419be029f94b" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;authorId&quot;:8,&quot;authorName&quot;:&quot;Pwwosdjsbdjsdsadsaasdd&quot;}" />
+              <option name="size" value="52" />
+              <option name="time" value="18" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1755498184878" />
+          <option name="id" value="d3148536-4084-4d2c-bb1a-6106614d2004" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10; &#10;  &quot;authorName&quot;: &quot;Pwwosdjsbdjsdsadsaasdd&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="c7c94a20-513b-499c-a1f2-44b09a6b2d48" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="Draft (1)" />
+              <option name="url" value="http://localhost:8080/authors/8" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 18 Aug 2025 06:23:04 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="d3148536-4084-4d2c-bb1a-6106614d2004" />
+              <option name="message" value="OK" />
+              <option name="time" value="269" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1755498188775" />
+          <option name="id" value="328fa335-2146-45fc-b0fc-a3d12b6f3be7" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10; &#10;  &quot;authorName&quot;: &quot;Pwwosdjsbdjsdsadsaasdd&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="c7c94a20-513b-499c-a1f2-44b09a6b2d48" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="Draft (1)" />
+              <option name="url" value="http://localhost:8080/authors/8" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0aW1lc3RhbXAiOiIyMDI1LTA4LTE4VDA2OjIzOjA4Ljc2OCswMDowMCIsInN0YXR1cyI6NDA0LCJlcnJvciI6Ik5vdCBGb3VuZCIsInBhdGgiOiIvYXV0aG9ycy84In0=" />
+              <option name="bodyString" value="{&#10;  &quot;timestamp&quot;: &quot;2025-08-18T06:23:08.768+00:00&quot;,&#10;  &quot;status&quot;: 404,&#10;  &quot;error&quot;: &quot;Not Found&quot;,&#10;  &quot;path&quot;: &quot;/authors/8&quot;&#10;}" />
+              <option name="code" value="404" />
               <option name="connectionEstablishingTime" value="2" />
               <option name="contentType" value="application/json" />
               <option name="headers">
@@ -39,7 +262,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Fri, 08 Aug 2025 06:57:39 GMT" />
+                    <option name="value" value="Mon, 18 Aug 2025 06:23:08 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Keep-Alive" />
@@ -51,39 +274,101 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="27526120-e668-451d-aebd-98d23ea31daf" />
-              <option name="message" value="OK" />
+              <option name="id" value="328fa335-2146-45fc-b0fc-a3d12b6f3be7" />
+              <option name="message" value="Not Found" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;id&quot;:104,&quot;name&quot;:&quot;chandar&quot;,&quot;imageUrl&quot;:&quot;bala.png&quot;}" />
-              <option name="size" value="49" />
-              <option name="time" value="13" />
+              <option name="rawBodyString" value="{&quot;timestamp&quot;:&quot;2025-08-18T06:23:08.768+00:00&quot;,&quot;status&quot;:404,&quot;error&quot;:&quot;Not Found&quot;,&quot;path&quot;:&quot;/authors/8&quot;}" />
+              <option name="size" value="98" />
+              <option name="time" value="26" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1754636267163" />
-          <option name="id" value="8879480a-10d6-46b1-8361-a22789305d6b" />
+          <option name="dateTime" value="1755498192809" />
+          <option name="id" value="de2ac479-5db9-44a8-9e78-aacc19a40219" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &#10;}" />
+                  <option name="raw" value="{&#10; &#10;  &quot;authorName&quot;: &quot;Pwwosdjsbdjsdsadsaasdd&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
-              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
-              <option name="method" value="GET" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8080/books/104" />
+              <option name="id" value="c7c94a20-513b-499c-a1f2-44b09a6b2d48" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft (1)" />
+              <option name="url" value="http://localhost:8080/authors/8" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJpZCI6MTA0LCJuYW1lIjoiY2hhbmRhciIsImltYWdlVXJsIjoiYmFsYS5wbmcifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;id&quot;: 104,&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &quot;imageUrl&quot;: &quot;bala.png&quot;&#10;}" />
-              <option name="code" value="200" />
-              <option name="connectionEstablishingTime" value="4" />
+              <option name="bodyBytesBase64" value="eyJ0aW1lc3RhbXAiOiIyMDI1LTA4LTE4VDA2OjIzOjEyLjgwNyswMDowMCIsInN0YXR1cyI6NDA1LCJlcnJvciI6Ik1ldGhvZCBOb3QgQWxsb3dlZCIsInBhdGgiOiIvYXV0aG9ycy84In0=" />
+              <option name="bodyString" value="{&#10;  &quot;timestamp&quot;: &quot;2025-08-18T06:23:12.807+00:00&quot;,&#10;  &quot;status&quot;: 405,&#10;  &quot;error&quot;: &quot;Method Not Allowed&quot;,&#10;  &quot;path&quot;: &quot;/authors/8&quot;&#10;}" />
+              <option name="code" value="405" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Allow" />
+                    <option name="value" value="DELETE, GET, PUT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 18 Aug 2025 06:23:12 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="de2ac479-5db9-44a8-9e78-aacc19a40219" />
+              <option name="message" value="Method Not Allowed" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;timestamp&quot;:&quot;2025-08-18T06:23:12.807+00:00&quot;,&quot;status&quot;:405,&quot;error&quot;:&quot;Method Not Allowed&quot;,&quot;path&quot;:&quot;/authors/8&quot;}" />
+              <option name="size" value="107" />
+              <option name="time" value="9" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1755498196460" />
+          <option name="id" value="c23865cd-886c-4aef-86b0-058f8724f14f" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10; &#10;  &quot;authorName&quot;: &quot;Pwwosdjsbdjsdsadsaasdd&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="c7c94a20-513b-499c-a1f2-44b09a6b2d48" />
+              <option name="method" value="PUT" />
+              <option name="name" value="Draft (1)" />
+              <option name="url" value="http://localhost:8080/authors/8" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0aW1lc3RhbXAiOiIyMDI1LTA4LTE4VDA2OjIzOjE2LjQ1NyswMDowMCIsInN0YXR1cyI6NDA0LCJlcnJvciI6Ik5vdCBGb3VuZCIsInBhdGgiOiIvYXV0aG9ycy84In0=" />
+              <option name="bodyString" value="{&#10;  &quot;timestamp&quot;: &quot;2025-08-18T06:23:16.457+00:00&quot;,&#10;  &quot;status&quot;: 404,&#10;  &quot;error&quot;: &quot;Not Found&quot;,&#10;  &quot;path&quot;: &quot;/authors/8&quot;&#10;}" />
+              <option name="code" value="404" />
+              <option name="connectionEstablishingTime" value="2" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
@@ -97,7 +382,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Fri, 08 Aug 2025 06:57:47 GMT" />
+                    <option name="value" value="Mon, 18 Aug 2025 06:23:16 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Keep-Alive" />
@@ -109,39 +394,97 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="8879480a-10d6-46b1-8361-a22789305d6b" />
-              <option name="message" value="OK" />
+              <option name="id" value="c23865cd-886c-4aef-86b0-058f8724f14f" />
+              <option name="message" value="Not Found" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;id&quot;:104,&quot;name&quot;:&quot;chandar&quot;,&quot;imageUrl&quot;:&quot;bala.png&quot;}" />
-              <option name="size" value="49" />
-              <option name="time" value="14" />
+              <option name="rawBodyString" value="{&quot;timestamp&quot;:&quot;2025-08-18T06:23:16.457+00:00&quot;,&quot;status&quot;:404,&quot;error&quot;:&quot;Not Found&quot;,&quot;path&quot;:&quot;/authors/8&quot;}" />
+              <option name="size" value="98" />
+              <option name="time" value="9" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1754636277369" />
-          <option name="id" value="0f64ba7b-1a3b-4dd5-a0ba-2448621ac0ed" />
+          <option name="dateTime" value="1755498200499" />
+          <option name="id" value="9329c892-4a41-407e-ae5b-64d94eba8516" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &#10;}" />
+                  <option name="raw" value="{&#10; &#10;  &quot;authorName&quot;: &quot;Pwwosdjsbdjsdsadsaasdd&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
-              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
+              <option name="id" value="c7c94a20-513b-499c-a1f2-44b09a6b2d48" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="Draft (1)" />
+              <option name="url" value="http://localhost:8080/authors/8" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0aW1lc3RhbXAiOiIyMDI1LTA4LTE4VDA2OjIzOjIwLjQ5NiswMDowMCIsInN0YXR1cyI6NDA0LCJlcnJvciI6Ik5vdCBGb3VuZCIsInBhdGgiOiIvYXV0aG9ycy84In0=" />
+              <option name="bodyString" value="{&#10;  &quot;timestamp&quot;: &quot;2025-08-18T06:23:20.496+00:00&quot;,&#10;  &quot;status&quot;: 404,&#10;  &quot;error&quot;: &quot;Not Found&quot;,&#10;  &quot;path&quot;: &quot;/authors/8&quot;&#10;}" />
+              <option name="code" value="404" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 18 Aug 2025 06:23:20 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9329c892-4a41-407e-ae5b-64d94eba8516" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;timestamp&quot;:&quot;2025-08-18T06:23:20.496+00:00&quot;,&quot;status&quot;:404,&quot;error&quot;:&quot;Not Found&quot;,&quot;path&quot;:&quot;/authors/8&quot;}" />
+              <option name="size" value="98" />
+              <option name="time" value="9" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1755509631321" />
+          <option name="id" value="87975f83-18c9-4f84-b40f-2cec9c746ca8" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10; &#10;  &quot;authorName&quot;: &quot;Pwwosdjsbdjsdsadsaasdd&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="c7c94a20-513b-499c-a1f2-44b09a6b2d48" />
               <option name="method" value="GET" />
-              <option name="name" value="Draft" />
+              <option name="name" value="Draft (1)" />
               <option name="url" value="http://localhost:8080/books" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="W3siaWQiOjEwMSwibmFtZSI6IlBzeWNob2xvZ3kgb2YgTW9uZXkiLCJpbWFnZVVybCI6IlBzeWNob2xvZ3lfb2ZfTW9uZXkucG5nIn0seyJpZCI6MTAyLCJuYW1lIjoiUmljaCBEYWQgUG9vciBEYWQiLCJpbWFnZVVybCI6IlJpY2hfRGFkX1Bvb3JfRGFkLmpwZyJ9LHsiaWQiOjEwMywibmFtZSI6IllvdXIgTW9uZXkgb3IgWW91ciBMaWZlIiwiaW1hZ2VVcmwiOiJZb3VyX01vbmV5X29yX1lvdXJfTGlmZS5qcGcifSx7ImlkIjoxMDQsIm5hbWUiOiJjaGFuZGFyIiwiaW1hZ2VVcmwiOiJiYWxhLnBuZyJ9XQ==" />
-              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot;: 101,&#10;    &quot;name&quot;: &quot;Psychology of Money&quot;,&#10;    &quot;imageUrl&quot;: &quot;Psychology_of_Money.png&quot;&#10;  },&#10;  {&#10;    &quot;id&quot;: 102,&#10;    &quot;name&quot;: &quot;Rich Dad Poor Dad&quot;,&#10;    &quot;imageUrl&quot;: &quot;Rich_Dad_Poor_Dad.jpg&quot;&#10;  },&#10;  {&#10;    &quot;id&quot;: 103,&#10;    &quot;name&quot;: &quot;Your Money or Your Life&quot;,&#10;    &quot;imageUrl&quot;: &quot;Your_Money_or_Your_Life.jpg&quot;&#10;  },&#10;  {&#10;    &quot;id&quot;: 104,&#10;    &quot;name&quot;: &quot;chandar&quot;,&#10;    &quot;imageUrl&quot;: &quot;bala.png&quot;&#10;  }&#10;]" />
+              <option name="bodyBytesBase64" value="W3siaWQiOjEsIm5hbWUiOiJIYXJyeSBQb3R0ZXIgYW5kIHRoZSBTb3JjZXJlcidzIFN0b25lIiwiaW1hZ2VVcmwiOiJoYXJyeV9wb3R0ZXJfYW5kX3RoZV9zb3JjZXJlcnNfc3RvbmUuanBnIiwicHVibGlzaGVyIjp7InB1Ymxpc2hlcklkIjoxLCJwdWJsaXNoZXJOYW1lIjoiQmxvb21zYnVyeSBQdWJsaXNoaW5nIn0sImF1dGhvcnMiOlt7ImF1dGhvcklkIjoxLCJhdXRob3JOYW1lIjoiSi5LLlJvd2xpbmcifV19LHsiaWQiOjIsIm5hbWUiOiJMaWZlIG9mIFBpIiwiaW1hZ2VVcmwiOiJsaWZlX29mX3BpLmpwZyIsInB1Ymxpc2hlciI6eyJwdWJsaXNoZXJJZCI6MywicHVibGlzaGVyTmFtZSI6Iktub3BmIENhbmFkYSJ9LCJhdXRob3JzIjpbeyJhdXRob3JJZCI6MiwiYXV0aG9yTmFtZSI6IkxhcnJ5IE5pdmVuIn0seyJhdXRob3JJZCI6MywiYXV0aG9yTmFtZSI6IkplcnJ5IFBvdXJuZWxsZSJ9XX0seyJpZCI6MywibmFtZSI6IkhhcnJ5IFBvdHRlciBhbmQgdGhlIENoYW1iZXIgb2YgU2VjcmV0cyIsImltYWdlVXJsIjoiaGFycnlfcG90dGVyX2FuZF90aGVfY2hhbWJlci5qcGciLCJwdWJsaXNoZXIiOnsicHVibGlzaGVySWQiOjEsInB1Ymxpc2hlck5hbWUiOiJCbG9vbXNidXJ5IFB1Ymxpc2hpbmcifSwiYXV0aG9ycyI6W3siYXV0aG9ySWQiOjQsImF1dGhvck5hbWUiOiJTdGVwaGVuIEtpbmcifSx7ImF1dGhvcklkIjo1LCJhdXRob3JOYW1lIjoiUGV0ZXIgU3RyYXViIn1dfSx7ImlkIjo0LCJuYW1lIjoiRWFzdCBvZiBFZGVuIiwiaW1hZ2VVcmwiOiJlYXN0X29mX2VkZW4uanBnIiwicHVibGlzaGVyIjp7InB1Ymxpc2hlcklkIjo2LCJwdWJsaXNoZXJOYW1lIjoiVmlraW5nIFByZXNzIn0sImF1dGhvcnMiOlt7ImF1dGhvcklkIjo0LCJhdXRob3JOYW1lIjoiU3RlcGhlbiBLaW5nIn1dfSx7ImlkIjo1LCJuYW1lIjoiVGhlIDMgTWlzdGFrZXMgb2YgTXkgTGlmZSIsImltYWdlVXJsIjoidGhlXzNfbWlzdGFrZXNfb2ZfbXlfbGlmZS5qcGciLCJwdWJsaXNoZXIiOnsicHVibGlzaGVySWQiOjIsInB1Ymxpc2hlck5hbWUiOiJSdXBhIFB1YmxpY2F0aW9ucyJ9LCJhdXRob3JzIjpbeyJhdXRob3JJZCI6NCwiYXV0aG9yTmFtZSI6IlN0ZXBoZW4gS2luZyJ9LHsiYXV0aG9ySWQiOjUsImF1dGhvck5hbWUiOiJQZXRlciBTdHJhdWIifV19LHsiaWQiOjYsIm5hbWUiOiJPbmUgTmlnaHQgYXQgdGhlIENhbGwgQ2VudGVyIiwiaW1hZ2VVcmwiOiJvbmVfbmlnaHRfYXRfdGhlX2NhbGxfY2VudGVyLmpwZyIsInB1Ymxpc2hlciI6eyJwdWJsaXNoZXJJZCI6MiwicHVibGlzaGVyTmFtZSI6IlJ1cGEgUHVibGljYXRpb25zIn0sImF1dGhvcnMiOlt7ImF1dGhvcklkIjo2LCJhdXRob3JOYW1lIjoiQ2hldGFuIEJoYWdhdCJ9XX0seyJpZCI6NywibmFtZSI6IkhhbGYgR2lybGZyaWVuZCIsImltYWdlVXJsIjoiaGFsZl9naXJsZnJpZW5kLmpwZyIsInB1Ymxpc2hlciI6eyJwdWJsaXNoZXJJZCI6MiwicHVibGlzaGVyTmFtZSI6IlJ1cGEgUHVibGljYXRpb25zIn0sImF1dGhvcnMiOlt7ImF1dGhvcklkIjo3LCJhdXRob3JOYW1lIjoiUmhvbmRhIEJ5cm5lIn1dfSx7ImlkIjo4LCJuYW1lIjoiVGhlIFNlY3JldCIsImltYWdlVXJsIjoidGhlX3NlY3JldC5qcGciLCJwdWJsaXNoZXIiOnsicHVibGlzaGVySWQiOjQsInB1Ymxpc2hlck5hbWUiOiJTaW1vbiAmIFNjaHVzdGVyIn0sImF1dGhvcnMiOlt7ImF1dGhvcklkIjo2LCJhdXRob3JOYW1lIjoiQ2hldGFuIEJoYWdhdCJ9XX0seyJpZCI6OSwibmFtZSI6IlRoZSBSaXNlIG9mIFRoZW9kb3JlIFJvb3NldmVsdCIsImltYWdlVXJsIjoidGhlX3Jpc2Vfb2ZfdGhlb2RvcmVfcm9vc2V2ZWx0LmpwZyIsInB1Ymxpc2hlciI6eyJwdWJsaXNoZXJJZCI6NSwicHVibGlzaGVyTmFtZSI6IlBlbmd1aW4gUmFuZG9tIEhvdXNlIn0sImF1dGhvcnMiOltdfSx7ImlkIjoxMCwibmFtZSI6ImJhbGFhYWFhIiwiaW1hZ2VVcmwiOiJzYWtscyIsInB1Ymxpc2hlciI6eyJwdWJsaXNoZXJJZCI6MiwicHVibGlzaGVyTmFtZSI6IlJ1cGEgUHVibGljYXRpb25zIn0sImF1dGhvcnMiOlt7ImF1dGhvcklkIjoxLCJhdXRob3JOYW1lIjoiSi5LLlJvd2xpbmcifV19XQ==" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot;: 1,&#10;    &quot;name&quot;: &quot;Harry Potter and the Sorcerer's Stone&quot;,&#10;    &quot;imageUrl&quot;: &quot;harry_potter_and_the_sorcerers_stone.jpg&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 1,&#10;      &quot;publisherName&quot;: &quot;Bloomsbury Publishing&quot;&#10;    },&#10;    &quot;authors&quot;: [&#10;      {&#10;        &quot;authorId&quot;: 1,&#10;        &quot;authorName&quot;: &quot;J.K.Rowling&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 2,&#10;    &quot;name&quot;: &quot;Life of Pi&quot;,&#10;    &quot;imageUrl&quot;: &quot;life_of_pi.jpg&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 3,&#10;      &quot;publisherName&quot;: &quot;Knopf Canada&quot;&#10;    },&#10;    &quot;authors&quot;: [&#10;      {&#10;        &quot;authorId&quot;: 2,&#10;        &quot;authorName&quot;: &quot;Larry Niven&quot;&#10;      },&#10;      {&#10;        &quot;authorId&quot;: 3,&#10;        &quot;authorName&quot;: &quot;Jerry Pournelle&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 3,&#10;    &quot;name&quot;: &quot;Harry Potter and the Chamber of Secrets&quot;,&#10;    &quot;imageUrl&quot;: &quot;harry_potter_and_the_chamber.jpg&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 1,&#10;      &quot;publisherName&quot;: &quot;Bloomsbury Publishing&quot;&#10;    },&#10;    &quot;authors&quot;: [&#10;      {&#10;        &quot;authorId&quot;: 4,&#10;        &quot;authorName&quot;: &quot;Stephen King&quot;&#10;      },&#10;      {&#10;        &quot;authorId&quot;: 5,&#10;        &quot;authorName&quot;: &quot;Peter Straub&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 4,&#10;    &quot;name&quot;: &quot;East of Eden&quot;,&#10;    &quot;imageUrl&quot;: &quot;east_of_eden.jpg&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 6,&#10;      &quot;publisherName&quot;: &quot;Viking Press&quot;&#10;    },&#10;    &quot;authors&quot;: [&#10;      {&#10;        &quot;authorId&quot;: 4,&#10;        &quot;authorName&quot;: &quot;Stephen King&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 5,&#10;    &quot;name&quot;: &quot;The 3 Mistakes of My Life&quot;,&#10;    &quot;imageUrl&quot;: &quot;the_3_mistakes_of_my_life.jpg&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 2,&#10;      &quot;publisherName&quot;: &quot;Rupa Publications&quot;&#10;    },&#10;    &quot;authors&quot;: [&#10;      {&#10;        &quot;authorId&quot;: 4,&#10;        &quot;authorName&quot;: &quot;Stephen King&quot;&#10;      },&#10;      {&#10;        &quot;authorId&quot;: 5,&#10;        &quot;authorName&quot;: &quot;Peter Straub&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 6,&#10;    &quot;name&quot;: &quot;One Night at the Call Center&quot;,&#10;    &quot;imageUrl&quot;: &quot;one_night_at_the_call_center.jpg&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 2,&#10;      &quot;publisherName&quot;: &quot;Rupa Publications&quot;&#10;    },&#10;    &quot;authors&quot;: [&#10;      {&#10;        &quot;authorId&quot;: 6,&#10;        &quot;authorName&quot;: &quot;Chetan Bhagat&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 7,&#10;    &quot;name&quot;: &quot;Half Girlfriend&quot;,&#10;    &quot;imageUrl&quot;: &quot;half_girlfriend.jpg&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 2,&#10;      &quot;publisherName&quot;: &quot;Rupa Publications&quot;&#10;    },&#10;    &quot;authors&quot;: [&#10;      {&#10;        &quot;authorId&quot;: 7,&#10;        &quot;authorName&quot;: &quot;Rhonda Byrne&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 8,&#10;    &quot;name&quot;: &quot;The Secret&quot;,&#10;    &quot;imageUrl&quot;: &quot;the_secret.jpg&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 4,&#10;      &quot;publisherName&quot;: &quot;Simon &amp; Schuster&quot;&#10;    },&#10;    &quot;authors&quot;: [&#10;      {&#10;        &quot;authorId&quot;: 6,&#10;        &quot;authorName&quot;: &quot;Chetan Bhagat&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 9,&#10;    &quot;name&quot;: &quot;The Rise of Theodore Roosevelt&quot;,&#10;    &quot;imageUrl&quot;: &quot;the_rise_of_theodore_roosevelt.jpg&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 5,&#10;      &quot;publisherName&quot;: &quot;Penguin Random House&quot;&#10;    },&#10;    &quot;authors&quot;: []&#10;  },&#10;  {&#10;    &quot;id&quot;: 10,&#10;    &quot;name&quot;: &quot;balaaaaa&quot;,&#10;    &quot;imageUrl&quot;: &quot;sakls&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 2,&#10;      &quot;publisherName&quot;: &quot;Rupa Publications&quot;&#10;    },&#10;    &quot;authors&quot;: [&#10;      {&#10;        &quot;authorId&quot;: 1,&#10;        &quot;authorName&quot;: &quot;J.K.Rowling&quot;&#10;      }&#10;    ]&#10;  }&#10;]" />
               <option name="code" value="200" />
-              <option name="connectionEstablishingTime" value="4" />
+              <option name="connectionEstablishingTime" value="1" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
@@ -155,7 +498,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Fri, 08 Aug 2025 06:57:57 GMT" />
+                    <option name="value" value="Mon, 18 Aug 2025 09:33:51 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Keep-Alive" />
@@ -167,89 +510,31 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="0f64ba7b-1a3b-4dd5-a0ba-2448621ac0ed" />
+              <option name="id" value="87975f83-18c9-4f84-b40f-2cec9c746ca8" />
               <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="[{&quot;id&quot;:101,&quot;name&quot;:&quot;Psychology of Money&quot;,&quot;imageUrl&quot;:&quot;Psychology_of_Money.png&quot;},{&quot;id&quot;:102,&quot;name&quot;:&quot;Rich Dad Poor Dad&quot;,&quot;imageUrl&quot;:&quot;Rich_Dad_Poor_Dad.jpg&quot;},{&quot;id&quot;:103,&quot;name&quot;:&quot;Your Money or Your Life&quot;,&quot;imageUrl&quot;:&quot;Your_Money_or_Your_Life.jpg&quot;},{&quot;id&quot;:104,&quot;name&quot;:&quot;chandar&quot;,&quot;imageUrl&quot;:&quot;bala.png&quot;}]" />
-              <option name="size" value="286" />
-              <option name="time" value="11" />
+              <option name="rawBodyString" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Harry Potter and the Sorcerer's Stone&quot;,&quot;imageUrl&quot;:&quot;harry_potter_and_the_sorcerers_stone.jpg&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:1,&quot;publisherName&quot;:&quot;Bloomsbury Publishing&quot;},&quot;authors&quot;:[{&quot;authorId&quot;:1,&quot;authorName&quot;:&quot;J.K.Rowling&quot;}]},{&quot;id&quot;:2,&quot;name&quot;:&quot;Life of Pi&quot;,&quot;imageUrl&quot;:&quot;life_of_pi.jpg&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:3,&quot;publisherName&quot;:&quot;Knopf Canada&quot;},&quot;authors&quot;:[{&quot;authorId&quot;:2,&quot;authorName&quot;:&quot;Larry Niven&quot;},{&quot;authorId&quot;:3,&quot;authorName&quot;:&quot;Jerry Pournelle&quot;}]},{&quot;id&quot;:3,&quot;name&quot;:&quot;Harry Potter and the Chamber of Secrets&quot;,&quot;imageUrl&quot;:&quot;harry_potter_and_the_chamber.jpg&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:1,&quot;publisherName&quot;:&quot;Bloomsbury Publishing&quot;},&quot;authors&quot;:[{&quot;authorId&quot;:4,&quot;authorName&quot;:&quot;Stephen King&quot;},{&quot;authorId&quot;:5,&quot;authorName&quot;:&quot;Peter Straub&quot;}]},{&quot;id&quot;:4,&quot;name&quot;:&quot;East of Eden&quot;,&quot;imageUrl&quot;:&quot;east_of_eden.jpg&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:6,&quot;publisherName&quot;:&quot;Viking Press&quot;},&quot;authors&quot;:[{&quot;authorId&quot;:4,&quot;authorName&quot;:&quot;Stephen King&quot;}]},{&quot;id&quot;:5,&quot;name&quot;:&quot;The 3 Mistakes of My Life&quot;,&quot;imageUrl&quot;:&quot;the_3_mistakes_of_my_life.jpg&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:2,&quot;publisherName&quot;:&quot;Rupa Publications&quot;},&quot;authors&quot;:[{&quot;authorId&quot;:4,&quot;authorName&quot;:&quot;Stephen King&quot;},{&quot;authorId&quot;:5,&quot;authorName&quot;:&quot;Peter Straub&quot;}]},{&quot;id&quot;:6,&quot;name&quot;:&quot;One Night at the Call Center&quot;,&quot;imageUrl&quot;:&quot;one_night_at_the_call_center.jpg&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:2,&quot;publisherName&quot;:&quot;Rupa Publications&quot;},&quot;authors&quot;:[{&quot;authorId&quot;:6,&quot;authorName&quot;:&quot;Chetan Bhagat&quot;}]},{&quot;id&quot;:7,&quot;name&quot;:&quot;Half Girlfriend&quot;,&quot;imageUrl&quot;:&quot;half_girlfriend.jpg&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:2,&quot;publisherName&quot;:&quot;Rupa Publications&quot;},&quot;authors&quot;:[{&quot;authorId&quot;:7,&quot;authorName&quot;:&quot;Rhonda Byrne&quot;}]},{&quot;id&quot;:8,&quot;name&quot;:&quot;The Secret&quot;,&quot;imageUrl&quot;:&quot;the_secret.jpg&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:4,&quot;publisherName&quot;:&quot;Simon &amp; Schuster&quot;},&quot;authors&quot;:[{&quot;authorId&quot;:6,&quot;authorName&quot;:&quot;Chetan Bhagat&quot;}]},{&quot;id&quot;:9,&quot;name&quot;:&quot;The Rise of Theodore Roosevelt&quot;,&quot;imageUrl&quot;:&quot;the_rise_of_theodore_roosevelt.jpg&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:5,&quot;publisherName&quot;:&quot;Penguin Random House&quot;},&quot;authors&quot;:[]},{&quot;id&quot;:10,&quot;name&quot;:&quot;balaaaaa&quot;,&quot;imageUrl&quot;:&quot;sakls&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:2,&quot;publisherName&quot;:&quot;Rupa Publications&quot;},&quot;authors&quot;:[{&quot;authorId&quot;:1,&quot;authorName&quot;:&quot;J.K.Rowling&quot;}]}]" />
+              <option name="size" value="2080" />
+              <option name="time" value="16" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1754642756672" />
-          <option name="id" value="2a796339-cc7b-4d98-9aec-7a02816365d4" />
+          <option name="dateTime" value="1755511564381" />
+          <option name="id" value="145f0007-01c6-49e2-9309-db6642ab4115" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
-              <option name="method" value="GET" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8080/books" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="W3siaWQiOjEwMSwibmFtZSI6IlBzeWNob2xvZ3kgb2YgTW9uZXkiLCJpbWFnZVVybCI6IlBzeWNob2xvZ3lfb2ZfTW9uZXkucG5nIn0seyJpZCI6MTAyLCJuYW1lIjoiUmljaCBEYWQgUG9vciBEYWQiLCJpbWFnZVVybCI6IlJpY2hfRGFkX1Bvb3JfRGFkLmpwZyJ9LHsiaWQiOjEwMywibmFtZSI6IllvdXIgTW9uZXkgb3IgWW91ciBMaWZlIiwiaW1hZ2VVcmwiOiJZb3VyX01vbmV5X29yX1lvdXJfTGlmZS5qcGcifV0=" />
-              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot;: 101,&#10;    &quot;name&quot;: &quot;Psychology of Money&quot;,&#10;    &quot;imageUrl&quot;: &quot;Psychology_of_Money.png&quot;&#10;  },&#10;  {&#10;    &quot;id&quot;: 102,&#10;    &quot;name&quot;: &quot;Rich Dad Poor Dad&quot;,&#10;    &quot;imageUrl&quot;: &quot;Rich_Dad_Poor_Dad.jpg&quot;&#10;  },&#10;  {&#10;    &quot;id&quot;: 103,&#10;    &quot;name&quot;: &quot;Your Money or Your Life&quot;,&#10;    &quot;imageUrl&quot;: &quot;Your_Money_or_Your_Life.jpg&quot;&#10;  }&#10;]" />
-              <option name="code" value="200" />
-              <option name="connectionEstablishingTime" value="12" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Fri, 08 Aug 2025 08:45:56 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=60" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="2a796339-cc7b-4d98-9aec-7a02816365d4" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="[{&quot;id&quot;:101,&quot;name&quot;:&quot;Psychology of Money&quot;,&quot;imageUrl&quot;:&quot;Psychology_of_Money.png&quot;},{&quot;id&quot;:102,&quot;name&quot;:&quot;Rich Dad Poor Dad&quot;,&quot;imageUrl&quot;:&quot;Rich_Dad_Poor_Dad.jpg&quot;},{&quot;id&quot;:103,&quot;name&quot;:&quot;Your Money or Your Life&quot;,&quot;imageUrl&quot;:&quot;Your_Money_or_Your_Life.jpg&quot;}]" />
-              <option name="size" value="236" />
-              <option name="time" value="231" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1754642768943" />
-          <option name="id" value="e0d2efd8-3fe1-4b29-afbe-ba78b7839860" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &#10;}" />
+                  <option name="raw" value=" {&#10;  &#10;  &quot;name&quot;: &quot;balaaaaa&quot;,&#10;   &quot;imageUrl&quot;: &quot;sakls&quot;,&#10;   &quot;publisher&quot;: {&#10;     &quot;publisherId&quot;: 20,&#10;   },&#10;   &quot;authors&quot;: [&#10;     {&#10;       &quot;authorId&quot;: 2&#10;     }&#10;   ]&#10;   &#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
               <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
               <option name="method" value="DELETE" />
               <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8080/books/101" />
+              <option name="url" value="http://localhost:8080/authors/1" />
             </requestState>
           </option>
           <option name="response">
@@ -261,7 +546,7 @@
                 <list>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Fri, 08 Aug 2025 08:46:08 GMT" />
+                    <option name="value" value="Mon, 18 Aug 2025 10:06:04 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Keep-Alive" />
@@ -273,34 +558,34 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="e0d2efd8-3fe1-4b29-afbe-ba78b7839860" />
+              <option name="id" value="145f0007-01c6-49e2-9309-db6642ab4115" />
               <option name="message" value="No Content" />
-              <option name="time" value="87" />
+              <option name="time" value="110" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1754642784543" />
-          <option name="id" value="b42abea1-7de4-4ae7-bf7e-de33a5984f5e" />
+          <option name="dateTime" value="1755511571500" />
+          <option name="id" value="50b67132-3e4f-4d9d-ab2a-c365825c45fe" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &#10;}" />
+                  <option name="raw" value=" {&#10;  &#10;  &quot;name&quot;: &quot;balaaaaa&quot;,&#10;   &quot;imageUrl&quot;: &quot;sakls&quot;,&#10;   &quot;publisher&quot;: {&#10;     &quot;publisherId&quot;: 20,&#10;   },&#10;   &quot;authors&quot;: [&#10;     {&#10;       &quot;authorId&quot;: 2&#10;     }&#10;   ]&#10;   &#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
               <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
-              <option name="method" value="GET" />
+              <option name="method" value="DELETE" />
               <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8080/books/101" />
+              <option name="url" value="http://localhost:8080/authors/20" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJ0aW1lc3RhbXAiOiIyMDI1LTA4LTA4VDA4OjQ2OjI0LjUyNCswMDowMCIsInN0YXR1cyI6NDA0LCJlcnJvciI6Ik5vdCBGb3VuZCIsInBhdGgiOiIvYm9va3MvMTAxIn0=" />
-              <option name="bodyString" value="{&#10;  &quot;timestamp&quot;: &quot;2025-08-08T08:46:24.524+00:00&quot;,&#10;  &quot;status&quot;: 404,&#10;  &quot;error&quot;: &quot;Not Found&quot;,&#10;  &quot;path&quot;: &quot;/books/101&quot;&#10;}" />
+              <option name="bodyBytesBase64" value="eyJ0aW1lc3RhbXAiOiIyMDI1LTA4LTE4VDEwOjA2OjExLjQ4OSswMDowMCIsInN0YXR1cyI6NDA0LCJlcnJvciI6Ik5vdCBGb3VuZCIsIm1lc3NhZ2UiOiJBdXRob3Igbm90IGZvdW5kIHdpdGggSUQ6ICIsInBhdGgiOiIvYXV0aG9ycy8yMCJ9" />
+              <option name="bodyString" value="{&#10;  &quot;timestamp&quot;: &quot;2025-08-18T10:06:11.489+00:00&quot;,&#10;  &quot;status&quot;: 404,&#10;  &quot;error&quot;: &quot;Not Found&quot;,&#10;  &quot;message&quot;: &quot;Author not found with ID: &quot;,&#10;  &quot;path&quot;: &quot;/authors/20&quot;&#10;}" />
               <option name="code" value="404" />
               <option name="contentType" value="application/json" />
               <option name="headers">
@@ -315,7 +600,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Fri, 08 Aug 2025 08:46:24 GMT" />
+                    <option name="value" value="Mon, 18 Aug 2025 10:06:11 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Keep-Alive" />
@@ -327,153 +612,37 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="b42abea1-7de4-4ae7-bf7e-de33a5984f5e" />
+              <option name="id" value="50b67132-3e4f-4d9d-ab2a-c365825c45fe" />
               <option name="message" value="Not Found" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;timestamp&quot;:&quot;2025-08-08T08:46:24.524+00:00&quot;,&quot;status&quot;:404,&quot;error&quot;:&quot;Not Found&quot;,&quot;path&quot;:&quot;/books/101&quot;}" />
-              <option name="size" value="98" />
-              <option name="time" value="27" />
+              <option name="rawBodyString" value="{&quot;timestamp&quot;:&quot;2025-08-18T10:06:11.489+00:00&quot;,&quot;status&quot;:404,&quot;error&quot;:&quot;Not Found&quot;,&quot;message&quot;:&quot;Author not found with ID: &quot;,&quot;path&quot;:&quot;/authors/20&quot;}" />
+              <option name="size" value="138" />
+              <option name="time" value="21" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1754642797941" />
-          <option name="id" value="2fbfe231-d399-4dbc-a878-a769955ddcb8" />
+          <option name="dateTime" value="1755511603653" />
+          <option name="id" value="8daa1cb6-895e-4909-9aa1-8b9bfda8faaf" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &#10;}" />
+                  <option name="raw" value="{&#10; &#10;  &quot;authorName&quot;: &quot;Pwwosdjsbdjsdsadsaasdd&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
-              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
+              <option name="id" value="c7c94a20-513b-499c-a1f2-44b09a6b2d48" />
               <option name="method" value="GET" />
-              <option name="name" value="Draft" />
+              <option name="name" value="Draft (1)" />
               <option name="url" value="http://localhost:8080/books" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="W3siaWQiOjEwMiwibmFtZSI6IlJpY2ggRGFkIFBvb3IgRGFkIiwiaW1hZ2VVcmwiOiJSaWNoX0RhZF9Qb29yX0RhZC5qcGcifSx7ImlkIjoxMDMsIm5hbWUiOiJZb3VyIE1vbmV5IG9yIFlvdXIgTGlmZSIsImltYWdlVXJsIjoiWW91cl9Nb25leV9vcl9Zb3VyX0xpZmUuanBnIn1d" />
-              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot;: 102,&#10;    &quot;name&quot;: &quot;Rich Dad Poor Dad&quot;,&#10;    &quot;imageUrl&quot;: &quot;Rich_Dad_Poor_Dad.jpg&quot;&#10;  },&#10;  {&#10;    &quot;id&quot;: 103,&#10;    &quot;name&quot;: &quot;Your Money or Your Life&quot;,&#10;    &quot;imageUrl&quot;: &quot;Your_Money_or_Your_Life.jpg&quot;&#10;  }&#10;]" />
-              <option name="code" value="200" />
-              <option name="connectionEstablishingTime" value="5" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Fri, 08 Aug 2025 08:46:37 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=60" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="2fbfe231-d399-4dbc-a878-a769955ddcb8" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="[{&quot;id&quot;:102,&quot;name&quot;:&quot;Rich Dad Poor Dad&quot;,&quot;imageUrl&quot;:&quot;Rich_Dad_Poor_Dad.jpg&quot;},{&quot;id&quot;:103,&quot;name&quot;:&quot;Your Money or Your Life&quot;,&quot;imageUrl&quot;:&quot;Your_Money_or_Your_Life.jpg&quot;}]" />
-              <option name="size" value="159" />
-              <option name="time" value="9" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1754642824382" />
-          <option name="id" value="7b68a53f-c0c5-4e6c-893c-0140296a7957" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
-              <option name="method" value="GET" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8080/books/103" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJpZCI6MTAzLCJuYW1lIjoiWW91ciBNb25leSBvciBZb3VyIExpZmUiLCJpbWFnZVVybCI6IllvdXJfTW9uZXlfb3JfWW91cl9MaWZlLmpwZyJ9" />
-              <option name="bodyString" value="{&#10;  &quot;id&quot;: 103,&#10;  &quot;name&quot;: &quot;Your Money or Your Life&quot;,&#10;  &quot;imageUrl&quot;: &quot;Your_Money_or_Your_Life.jpg&quot;&#10;}" />
-              <option name="code" value="200" />
-              <option name="connectionEstablishingTime" value="16" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Fri, 08 Aug 2025 08:47:04 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=60" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="7b68a53f-c0c5-4e6c-893c-0140296a7957" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;id&quot;:103,&quot;name&quot;:&quot;Your Money or Your Life&quot;,&quot;imageUrl&quot;:&quot;Your_Money_or_Your_Life.jpg&quot;}" />
-              <option name="size" value="84" />
-              <option name="time" value="244" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1754642880958" />
-          <option name="id" value="fcb08a4b-eba5-47b3-8a77-49f889bbfe3f" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &quot;imageUrl&quot;:&quot;anoob.png&quot;&#10;  &#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8080/books" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJpZCI6MTA0LCJuYW1lIjoiY2hhbmRhciIsImltYWdlVXJsIjoiYW5vb2IucG5nIn0=" />
-              <option name="bodyString" value="{&#10;  &quot;id&quot;: 104,&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &quot;imageUrl&quot;: &quot;anoob.png&quot;&#10;}" />
+              <option name="bodyBytesBase64" value="W3siaWQiOjEsIm5hbWUiOiJIYXJyeSBQb3R0ZXIgYW5kIHRoZSBTb3JjZXJlcidzIFN0b25lIiwiaW1hZ2VVcmwiOiJoYXJyeV9wb3R0ZXJfYW5kX3RoZV9zb3JjZXJlcnNfc3RvbmUuanBnIiwicHVibGlzaGVyIjp7InB1Ymxpc2hlcklkIjoxLCJwdWJsaXNoZXJOYW1lIjoiQmxvb21zYnVyeSBQdWJsaXNoaW5nIn0sImF1dGhvcnMiOltdfSx7ImlkIjoyLCJuYW1lIjoiTGlmZSBvZiBQaSIsImltYWdlVXJsIjoibGlmZV9vZl9waS5qcGciLCJwdWJsaXNoZXIiOnsicHVibGlzaGVySWQiOjMsInB1Ymxpc2hlck5hbWUiOiJLbm9wZiBDYW5hZGEifSwiYXV0aG9ycyI6W3siYXV0aG9ySWQiOjIsImF1dGhvck5hbWUiOiJMYXJyeSBOaXZlbiJ9LHsiYXV0aG9ySWQiOjMsImF1dGhvck5hbWUiOiJKZXJyeSBQb3VybmVsbGUifV19LHsiaWQiOjMsIm5hbWUiOiJIYXJyeSBQb3R0ZXIgYW5kIHRoZSBDaGFtYmVyIG9mIFNlY3JldHMiLCJpbWFnZVVybCI6ImhhcnJ5X3BvdHRlcl9hbmRfdGhlX2NoYW1iZXIuanBnIiwicHVibGlzaGVyIjp7InB1Ymxpc2hlcklkIjoxLCJwdWJsaXNoZXJOYW1lIjoiQmxvb21zYnVyeSBQdWJsaXNoaW5nIn0sImF1dGhvcnMiOlt7ImF1dGhvcklkIjo0LCJhdXRob3JOYW1lIjoiU3RlcGhlbiBLaW5nIn0seyJhdXRob3JJZCI6NSwiYXV0aG9yTmFtZSI6IlBldGVyIFN0cmF1YiJ9XX0seyJpZCI6NCwibmFtZSI6IkVhc3Qgb2YgRWRlbiIsImltYWdlVXJsIjoiZWFzdF9vZl9lZGVuLmpwZyIsInB1Ymxpc2hlciI6eyJwdWJsaXNoZXJJZCI6NiwicHVibGlzaGVyTmFtZSI6IlZpa2luZyBQcmVzcyJ9LCJhdXRob3JzIjpbeyJhdXRob3JJZCI6NCwiYXV0aG9yTmFtZSI6IlN0ZXBoZW4gS2luZyJ9XX0seyJpZCI6NSwibmFtZSI6IlRoZSAzIE1pc3Rha2VzIG9mIE15IExpZmUiLCJpbWFnZVVybCI6InRoZV8zX21pc3Rha2VzX29mX215X2xpZmUuanBnIiwicHVibGlzaGVyIjp7InB1Ymxpc2hlcklkIjoyLCJwdWJsaXNoZXJOYW1lIjoiUnVwYSBQdWJsaWNhdGlvbnMifSwiYXV0aG9ycyI6W3siYXV0aG9ySWQiOjQsImF1dGhvck5hbWUiOiJTdGVwaGVuIEtpbmcifSx7ImF1dGhvcklkIjo1LCJhdXRob3JOYW1lIjoiUGV0ZXIgU3RyYXViIn1dfSx7ImlkIjo2LCJuYW1lIjoiT25lIE5pZ2h0IGF0IHRoZSBDYWxsIENlbnRlciIsImltYWdlVXJsIjoib25lX25pZ2h0X2F0X3RoZV9jYWxsX2NlbnRlci5qcGciLCJwdWJsaXNoZXIiOnsicHVibGlzaGVySWQiOjIsInB1Ymxpc2hlck5hbWUiOiJSdXBhIFB1YmxpY2F0aW9ucyJ9LCJhdXRob3JzIjpbeyJhdXRob3JJZCI6NiwiYXV0aG9yTmFtZSI6IkNoZXRhbiBCaGFnYXQifV19LHsiaWQiOjcsIm5hbWUiOiJIYWxmIEdpcmxmcmllbmQiLCJpbWFnZVVybCI6ImhhbGZfZ2lybGZyaWVuZC5qcGciLCJwdWJsaXNoZXIiOnsicHVibGlzaGVySWQiOjIsInB1Ymxpc2hlck5hbWUiOiJSdXBhIFB1YmxpY2F0aW9ucyJ9LCJhdXRob3JzIjpbeyJhdXRob3JJZCI6NywiYXV0aG9yTmFtZSI6IlJob25kYSBCeXJuZSJ9XX0seyJpZCI6OCwibmFtZSI6IlRoZSBTZWNyZXQiLCJpbWFnZVVybCI6InRoZV9zZWNyZXQuanBnIiwicHVibGlzaGVyIjp7InB1Ymxpc2hlcklkIjo0LCJwdWJsaXNoZXJOYW1lIjoiU2ltb24gJiBTY2h1c3RlciJ9LCJhdXRob3JzIjpbeyJhdXRob3JJZCI6NiwiYXV0aG9yTmFtZSI6IkNoZXRhbiBCaGFnYXQifV19LHsiaWQiOjksIm5hbWUiOiJUaGUgUmlzZSBvZiBUaGVvZG9yZSBSb29zZXZlbHQiLCJpbWFnZVVybCI6InRoZV9yaXNlX29mX3RoZW9kb3JlX3Jvb3NldmVsdC5qcGciLCJwdWJsaXNoZXIiOnsicHVibGlzaGVySWQiOjUsInB1Ymxpc2hlck5hbWUiOiJQZW5ndWluIFJhbmRvbSBIb3VzZSJ9LCJhdXRob3JzIjpbXX1d" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot;: 1,&#10;    &quot;name&quot;: &quot;Harry Potter and the Sorcerer's Stone&quot;,&#10;    &quot;imageUrl&quot;: &quot;harry_potter_and_the_sorcerers_stone.jpg&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 1,&#10;      &quot;publisherName&quot;: &quot;Bloomsbury Publishing&quot;&#10;    },&#10;    &quot;authors&quot;: []&#10;  },&#10;  {&#10;    &quot;id&quot;: 2,&#10;    &quot;name&quot;: &quot;Life of Pi&quot;,&#10;    &quot;imageUrl&quot;: &quot;life_of_pi.jpg&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 3,&#10;      &quot;publisherName&quot;: &quot;Knopf Canada&quot;&#10;    },&#10;    &quot;authors&quot;: [&#10;      {&#10;        &quot;authorId&quot;: 2,&#10;        &quot;authorName&quot;: &quot;Larry Niven&quot;&#10;      },&#10;      {&#10;        &quot;authorId&quot;: 3,&#10;        &quot;authorName&quot;: &quot;Jerry Pournelle&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 3,&#10;    &quot;name&quot;: &quot;Harry Potter and the Chamber of Secrets&quot;,&#10;    &quot;imageUrl&quot;: &quot;harry_potter_and_the_chamber.jpg&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 1,&#10;      &quot;publisherName&quot;: &quot;Bloomsbury Publishing&quot;&#10;    },&#10;    &quot;authors&quot;: [&#10;      {&#10;        &quot;authorId&quot;: 4,&#10;        &quot;authorName&quot;: &quot;Stephen King&quot;&#10;      },&#10;      {&#10;        &quot;authorId&quot;: 5,&#10;        &quot;authorName&quot;: &quot;Peter Straub&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 4,&#10;    &quot;name&quot;: &quot;East of Eden&quot;,&#10;    &quot;imageUrl&quot;: &quot;east_of_eden.jpg&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 6,&#10;      &quot;publisherName&quot;: &quot;Viking Press&quot;&#10;    },&#10;    &quot;authors&quot;: [&#10;      {&#10;        &quot;authorId&quot;: 4,&#10;        &quot;authorName&quot;: &quot;Stephen King&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 5,&#10;    &quot;name&quot;: &quot;The 3 Mistakes of My Life&quot;,&#10;    &quot;imageUrl&quot;: &quot;the_3_mistakes_of_my_life.jpg&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 2,&#10;      &quot;publisherName&quot;: &quot;Rupa Publications&quot;&#10;    },&#10;    &quot;authors&quot;: [&#10;      {&#10;        &quot;authorId&quot;: 4,&#10;        &quot;authorName&quot;: &quot;Stephen King&quot;&#10;      },&#10;      {&#10;        &quot;authorId&quot;: 5,&#10;        &quot;authorName&quot;: &quot;Peter Straub&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 6,&#10;    &quot;name&quot;: &quot;One Night at the Call Center&quot;,&#10;    &quot;imageUrl&quot;: &quot;one_night_at_the_call_center.jpg&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 2,&#10;      &quot;publisherName&quot;: &quot;Rupa Publications&quot;&#10;    },&#10;    &quot;authors&quot;: [&#10;      {&#10;        &quot;authorId&quot;: 6,&#10;        &quot;authorName&quot;: &quot;Chetan Bhagat&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 7,&#10;    &quot;name&quot;: &quot;Half Girlfriend&quot;,&#10;    &quot;imageUrl&quot;: &quot;half_girlfriend.jpg&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 2,&#10;      &quot;publisherName&quot;: &quot;Rupa Publications&quot;&#10;    },&#10;    &quot;authors&quot;: [&#10;      {&#10;        &quot;authorId&quot;: 7,&#10;        &quot;authorName&quot;: &quot;Rhonda Byrne&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 8,&#10;    &quot;name&quot;: &quot;The Secret&quot;,&#10;    &quot;imageUrl&quot;: &quot;the_secret.jpg&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 4,&#10;      &quot;publisherName&quot;: &quot;Simon &amp; Schuster&quot;&#10;    },&#10;    &quot;authors&quot;: [&#10;      {&#10;        &quot;authorId&quot;: 6,&#10;        &quot;authorName&quot;: &quot;Chetan Bhagat&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 9,&#10;    &quot;name&quot;: &quot;The Rise of Theodore Roosevelt&quot;,&#10;    &quot;imageUrl&quot;: &quot;the_rise_of_theodore_roosevelt.jpg&quot;,&#10;    &quot;publisher&quot;: {&#10;      &quot;publisherId&quot;: 5,&#10;      &quot;publisherName&quot;: &quot;Penguin Random House&quot;&#10;    },&#10;    &quot;authors&quot;: []&#10;  }&#10;]" />
               <option name="code" value="200" />
               <option name="connectionEstablishingTime" value="3" />
               <option name="contentType" value="application/json" />
@@ -489,7 +658,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Fri, 08 Aug 2025 08:48:00 GMT" />
+                    <option name="value" value="Mon, 18 Aug 2025 10:06:43 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Keep-Alive" />
@@ -501,53 +670,47 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="fcb08a4b-eba5-47b3-8a77-49f889bbfe3f" />
+              <option name="id" value="8daa1cb6-895e-4909-9aa1-8b9bfda8faaf" />
               <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;id&quot;:104,&quot;name&quot;:&quot;chandar&quot;,&quot;imageUrl&quot;:&quot;anoob.png&quot;}" />
-              <option name="size" value="50" />
-              <option name="time" value="80" />
+              <option name="rawBodyString" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Harry Potter and the Sorcerer's Stone&quot;,&quot;imageUrl&quot;:&quot;harry_potter_and_the_sorcerers_stone.jpg&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:1,&quot;publisherName&quot;:&quot;Bloomsbury Publishing&quot;},&quot;authors&quot;:[]},{&quot;id&quot;:2,&quot;name&quot;:&quot;Life of Pi&quot;,&quot;imageUrl&quot;:&quot;life_of_pi.jpg&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:3,&quot;publisherName&quot;:&quot;Knopf Canada&quot;},&quot;authors&quot;:[{&quot;authorId&quot;:2,&quot;authorName&quot;:&quot;Larry Niven&quot;},{&quot;authorId&quot;:3,&quot;authorName&quot;:&quot;Jerry Pournelle&quot;}]},{&quot;id&quot;:3,&quot;name&quot;:&quot;Harry Potter and the Chamber of Secrets&quot;,&quot;imageUrl&quot;:&quot;harry_potter_and_the_chamber.jpg&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:1,&quot;publisherName&quot;:&quot;Bloomsbury Publishing&quot;},&quot;authors&quot;:[{&quot;authorId&quot;:4,&quot;authorName&quot;:&quot;Stephen King&quot;},{&quot;authorId&quot;:5,&quot;authorName&quot;:&quot;Peter Straub&quot;}]},{&quot;id&quot;:4,&quot;name&quot;:&quot;East of Eden&quot;,&quot;imageUrl&quot;:&quot;east_of_eden.jpg&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:6,&quot;publisherName&quot;:&quot;Viking Press&quot;},&quot;authors&quot;:[{&quot;authorId&quot;:4,&quot;authorName&quot;:&quot;Stephen King&quot;}]},{&quot;id&quot;:5,&quot;name&quot;:&quot;The 3 Mistakes of My Life&quot;,&quot;imageUrl&quot;:&quot;the_3_mistakes_of_my_life.jpg&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:2,&quot;publisherName&quot;:&quot;Rupa Publications&quot;},&quot;authors&quot;:[{&quot;authorId&quot;:4,&quot;authorName&quot;:&quot;Stephen King&quot;},{&quot;authorId&quot;:5,&quot;authorName&quot;:&quot;Peter Straub&quot;}]},{&quot;id&quot;:6,&quot;name&quot;:&quot;One Night at the Call Center&quot;,&quot;imageUrl&quot;:&quot;one_night_at_the_call_center.jpg&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:2,&quot;publisherName&quot;:&quot;Rupa Publications&quot;},&quot;authors&quot;:[{&quot;authorId&quot;:6,&quot;authorName&quot;:&quot;Chetan Bhagat&quot;}]},{&quot;id&quot;:7,&quot;name&quot;:&quot;Half Girlfriend&quot;,&quot;imageUrl&quot;:&quot;half_girlfriend.jpg&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:2,&quot;publisherName&quot;:&quot;Rupa Publications&quot;},&quot;authors&quot;:[{&quot;authorId&quot;:7,&quot;authorName&quot;:&quot;Rhonda Byrne&quot;}]},{&quot;id&quot;:8,&quot;name&quot;:&quot;The Secret&quot;,&quot;imageUrl&quot;:&quot;the_secret.jpg&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:4,&quot;publisherName&quot;:&quot;Simon &amp; Schuster&quot;},&quot;authors&quot;:[{&quot;authorId&quot;:6,&quot;authorName&quot;:&quot;Chetan Bhagat&quot;}]},{&quot;id&quot;:9,&quot;name&quot;:&quot;The Rise of Theodore Roosevelt&quot;,&quot;imageUrl&quot;:&quot;the_rise_of_theodore_roosevelt.jpg&quot;,&quot;publisher&quot;:{&quot;publisherId&quot;:5,&quot;publisherName&quot;:&quot;Penguin Random House&quot;},&quot;authors&quot;:[]}]" />
+              <option name="size" value="1872" />
+              <option name="time" value="147" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1754642889356" />
-          <option name="id" value="83815067-55b0-4ea1-8b49-61ea04e2d9ef" />
+          <option name="dateTime" value="1755511794372" />
+          <option name="id" value="c72b5352-269f-4684-b3f1-494b8c7abadb" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;chandar&quot;,&#10;  &quot;imageUrl&quot;:&quot;anoob.png&quot;&#10;  &#10;}" />
+                  <option name="raw" value=" {&#10;  &#10;  &quot;name&quot;: &quot;balaaaaa&quot;,&#10;   &quot;imageUrl&quot;: &quot;sakls&quot;,&#10;   &quot;publisher&quot;: {&#10;     &quot;publisherId&quot;: 20,&#10;   },&#10;   &quot;authors&quot;: [&#10;     {&#10;       &quot;authorId&quot;: 2&#10;     }&#10;   ]&#10;   &#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
               <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
-              <option name="method" value="GET" />
+              <option name="method" value="DELETE" />
               <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8080/books" />
+              <option name="url" value="http://localhost:8080/books/20" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="W3siaWQiOjEwMSwibmFtZSI6IlBzeWNob2xvZ3kgb2YgTW9uZXkiLCJpbWFnZVVybCI6IlBzeWNob2xvZ3lfb2ZfTW9uZXkucG5nIn0seyJpZCI6MTAyLCJuYW1lIjoiUmljaCBEYWQgUG9vciBEYWQiLCJpbWFnZVVybCI6IlJpY2hfRGFkX1Bvb3JfRGFkLmpwZyJ9LHsiaWQiOjEwMywibmFtZSI6IllvdXIgTW9uZXkgb3IgWW91ciBMaWZlIiwiaW1hZ2VVcmwiOiJZb3VyX01vbmV5X29yX1lvdXJfTGlmZS5qcGcifSx7ImlkIjoxMDQsIm5hbWUiOiJjaGFuZGFyIiwiaW1hZ2VVcmwiOiJhbm9vYi5wbmcifV0=" />
-              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot;: 101,&#10;    &quot;name&quot;: &quot;Psychology of Money&quot;,&#10;    &quot;imageUrl&quot;: &quot;Psychology_of_Money.png&quot;&#10;  },&#10;  {&#10;    &quot;id&quot;: 102,&#10;    &quot;name&quot;: &quot;Rich Dad Poor Dad&quot;,&#10;    &quot;imageUrl&quot;: &quot;Rich_Dad_Poor_Dad.jpg&quot;&#10;  },&#10;  {&#10;    &quot;id&quot;: 103,&#10;    &quot;name&quot;: &quot;Your Money or Your Life&quot;,&#10;    &quot;imageUrl&quot;: &quot;Your_Money_or_Your_Life.jpg&quot;&#10;  },&#10;  {&#10;    &quot;id&quot;: 104,&#10;    &quot;name&quot;: &quot;chandar&quot;,&#10;    &quot;imageUrl&quot;: &quot;anoob.png&quot;&#10;  }&#10;]" />
               <option name="code" value="200" />
-              <option name="connectionEstablishingTime" value="2" />
-              <option name="contentType" value="application/json" />
+              <option name="connectionEstablishingTime" value="4" />
+              <option name="contentType" value="application/octet-stream" />
               <option name="headers">
                 <list>
                   <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Fri, 08 Aug 2025 08:48:09 GMT" />
+                    <option name="value" value="Mon, 18 Aug 2025 10:09:54 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Keep-Alive" />
@@ -559,12 +722,348 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="83815067-55b0-4ea1-8b49-61ea04e2d9ef" />
+              <option name="id" value="c72b5352-269f-4684-b3f1-494b8c7abadb" />
               <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="[{&quot;id&quot;:101,&quot;name&quot;:&quot;Psychology of Money&quot;,&quot;imageUrl&quot;:&quot;Psychology_of_Money.png&quot;},{&quot;id&quot;:102,&quot;name&quot;:&quot;Rich Dad Poor Dad&quot;,&quot;imageUrl&quot;:&quot;Rich_Dad_Poor_Dad.jpg&quot;},{&quot;id&quot;:103,&quot;name&quot;:&quot;Your Money or Your Life&quot;,&quot;imageUrl&quot;:&quot;Your_Money_or_Your_Life.jpg&quot;},{&quot;id&quot;:104,&quot;name&quot;:&quot;chandar&quot;,&quot;imageUrl&quot;:&quot;anoob.png&quot;}]" />
-              <option name="size" value="287" />
-              <option name="time" value="14" />
+              <option name="time" value="430" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1755522543808" />
+          <option name="id" value="ea103e54-854b-4a49-b1a7-48616bddbcf5" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value=" {&#10;  &#10;  &quot;name&quot;: &quot;balaaaaa&quot;,&#10;   &quot;imageUrl&quot;: &quot;sakls&quot;,&#10;   &quot;publisher&quot;: {&#10;     &quot;publisherId&quot;: 20,&#10;   },&#10;   &quot;authors&quot;: [&#10;     {&#10;       &quot;authorId&quot;: 2&#10;     }&#10;   ]&#10;   &#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8080/books/20" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="204" />
+              <option name="connectionEstablishingTime" value="229" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 18 Aug 2025 13:09:03 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="ea103e54-854b-4a49-b1a7-48616bddbcf5" />
+              <option name="message" value="No Content" />
+              <option name="time" value="701" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1755523211957" />
+          <option name="id" value="735c9442-fe1e-4767-89e5-dcefebfc4299" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value=" {&#10;  &#10;  &quot;name&quot;: &quot;balaaaaa&quot;,&#10;   &quot;imageUrl&quot;: &quot;sakls&quot;,&#10;   &quot;publisher&quot;: {&#10;     &quot;publisherId&quot;: 20,&#10;   },&#10;   &quot;authors&quot;: [&#10;     {&#10;       &quot;authorId&quot;: 2&#10;     }&#10;   ]&#10;   &#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8080/books/2000" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 18 Aug 2025 13:20:11 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="735c9442-fe1e-4767-89e5-dcefebfc4299" />
+              <option name="message" value="OK" />
+              <option name="time" value="403" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1755523213991" />
+          <option name="id" value="2c5f457c-dcc0-488d-bcbc-5a9efc5461c4" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value=" {&#10;  &#10;  &quot;name&quot;: &quot;balaaaaa&quot;,&#10;   &quot;imageUrl&quot;: &quot;sakls&quot;,&#10;   &quot;publisher&quot;: {&#10;     &quot;publisherId&quot;: 20,&#10;   },&#10;   &quot;authors&quot;: [&#10;     {&#10;       &quot;authorId&quot;: 2&#10;     }&#10;   ]&#10;   &#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8080/books/2000" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="4" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 18 Aug 2025 13:20:13 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="2c5f457c-dcc0-488d-bcbc-5a9efc5461c4" />
+              <option name="message" value="OK" />
+              <option name="time" value="19" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1755523214762" />
+          <option name="id" value="d4a309bf-f847-4ed9-8751-154050e0c316" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value=" {&#10;  &#10;  &quot;name&quot;: &quot;balaaaaa&quot;,&#10;   &quot;imageUrl&quot;: &quot;sakls&quot;,&#10;   &quot;publisher&quot;: {&#10;     &quot;publisherId&quot;: 20,&#10;   },&#10;   &quot;authors&quot;: [&#10;     {&#10;       &quot;authorId&quot;: 2&#10;     }&#10;   ]&#10;   &#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8080/books/2000" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="9" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 18 Aug 2025 13:20:14 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="d4a309bf-f847-4ed9-8751-154050e0c316" />
+              <option name="message" value="OK" />
+              <option name="time" value="26" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1755523214943" />
+          <option name="id" value="c7afd9c8-09a8-42e2-b80d-8cb7a9f25650" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value=" {&#10;  &#10;  &quot;name&quot;: &quot;balaaaaa&quot;,&#10;   &quot;imageUrl&quot;: &quot;sakls&quot;,&#10;   &quot;publisher&quot;: {&#10;     &quot;publisherId&quot;: 20,&#10;   },&#10;   &quot;authors&quot;: [&#10;     {&#10;       &quot;authorId&quot;: 2&#10;     }&#10;   ]&#10;   &#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8080/books/2000" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 18 Aug 2025 13:20:14 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c7afd9c8-09a8-42e2-b80d-8cb7a9f25650" />
+              <option name="message" value="OK" />
+              <option name="time" value="12" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1755523448319" />
+          <option name="id" value="23ee79dd-81ad-4dd6-b81c-502c51424026" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value=" {&#10;  &#10;  &quot;name&quot;: &quot;balaaaaa&quot;,&#10;   &quot;imageUrl&quot;: &quot;sakls&quot;,&#10;   &quot;publisher&quot;: {&#10;     &quot;publisherId&quot;: 20,&#10;   },&#10;   &quot;authors&quot;: [&#10;     {&#10;       &quot;authorId&quot;: 2&#10;     }&#10;   ]&#10;   &#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8080/books/2000" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="13" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 18 Aug 2025 13:24:08 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="23ee79dd-81ad-4dd6-b81c-502c51424026" />
+              <option name="message" value="OK" />
+              <option name="time" value="370" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1755523689555" />
+          <option name="id" value="e1d368b4-2a28-424f-a1d7-9730fe53bedb" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value=" {&#10;  &#10;  &quot;name&quot;: &quot;balaaaaa&quot;,&#10;   &quot;imageUrl&quot;: &quot;sakls&quot;,&#10;   &quot;publisher&quot;: {&#10;     &quot;publisherId&quot;: 20,&#10;   },&#10;   &quot;authors&quot;: [&#10;     {&#10;       &quot;authorId&quot;: 2&#10;     }&#10;   ]&#10;   &#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="eb07676e-cf8d-4325-b3a0-ef8a804a3c0d" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8080/books/2000" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 18 Aug 2025 13:28:09 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="e1d368b4-2a28-424f-a1d7-9730fe53bedb" />
+              <option name="message" value="OK" />
+              <option name="time" value="319" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
